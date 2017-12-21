@@ -13,6 +13,10 @@ app.get("/asdf", function(req, res) {
     res.send("You have left the landing page. Woooooo..")
 });
 
+app.get("/test", function(req, res) {
+    res.send(".....hi..")
+});
+
 app.listen(8000, function() {
     console.log("Everything is good in the hood.");
 });
